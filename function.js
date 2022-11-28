@@ -10,3 +10,16 @@ function life(name){
     return;
 }
 life('Real'); //call life function
+
+// Binary function
+let number = 348;
+let text = number.toString(16);
+console.log(text);
+
+//Binary Function 
+function convert(number,type){
+    let result = number.toString(type);
+    console.log(`${number} for ${result}`);
+    console.log('Thank You');
+}
+convert(348,16);
