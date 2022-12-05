@@ -3,6 +3,7 @@ const fruits = ['Apple', 'Banana', 'Painapel', 'Orange', 'Mango']; //arry declea
 //document.getElementById('array').innerHTML = cars;
 // console.log(fruits[0]);
 let fLen = fruits.length;
+console.log(typeof fruits); //return object
 //push array
 fruits.push('Lemon');
 console.log(`fruits item are `+ fruits.length);
@@ -21,3 +22,4 @@ console.log(`fruits last item is `+ fruits[fruits.length -1]);
 // };
 // fruits.forEach(myfunction);
 // console.log('Finished');
+fruits instanceof Array;
