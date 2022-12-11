@@ -16,10 +16,10 @@ console.log(`fruits last item is `+ fruits[fruits.length -1]);
 // console.log('for loop end');
 // console.log('');
 
-// //Array.forEach function
-// function myfunction(item){
-//     console.log(item);
-// };
+//Array.forEach function
+function myfunction(item){
+    console.log(item);
+};
 // fruits.forEach(myfunction);
 // console.log('Finished');
 fruits instanceof Array;
