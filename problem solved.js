@@ -22,7 +22,7 @@ function isLeapYear(year){
         console.log(`${year} is not  a leap year!`);  
     }
 };
-isLeapYear(2016);
+isLeapYear(2004);
 
 // কোনো sentence কত গুলো vowel আছে তা নির্নয় করা যায় কি ভাবে 
 const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
